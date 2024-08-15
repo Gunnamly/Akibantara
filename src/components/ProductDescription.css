@@ -12,6 +12,16 @@
   }
   
   .description {
-    color: #717171; /* Contoh warna abu-abu */
+    color: #717171; 
     font-size: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+    }
   }

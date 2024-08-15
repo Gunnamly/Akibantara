@@ -1,13 +1,13 @@
 
 .product-catalog {
   width: 100%;
-  margin-bottom: 20px; /* Spasi antar elemen */
+  margin-bottom: 20px;
   font-size: 1.5rem;
 }
 
 .product-list {
   display: flex;
-  justify-content: center; /* Memusatkan elemen dalam flex container */
+  justify-content: center; 
   gap: 90px;
   flex-wrap: wrap;
 }
@@ -33,4 +33,20 @@
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .product-item {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+
+  .product-catalog {
+    font-size: 1rem;
+  }
+
+  .product-list {
+    gap: 20px;
+  }
 }

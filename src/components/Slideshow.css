@@ -49,3 +49,15 @@
 .slide-title {
   font-family: 'Times New Roman', Times, serif;
 }
+
+@media (max-width: 768px) {
+  .slideshow {
+    height: 500px;
+  }
+
+  .slide-text {
+    font-size: 3em; 
+    letter-spacing: 8px;
+    line-height: 0.8;
+  }
+}

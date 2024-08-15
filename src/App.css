@@ -9,11 +9,17 @@ body, html {
 .App {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   justify-content: center; 
   min-height: 100vh; 
   text-align: center;
   background-color: #ffffff;
-  /* padding: 20px; */
   box-sizing: border-box;
+  padding: 10px; 
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
 }
