@@ -1,0 +1,17 @@
+.product-description {
+    width: 100%;
+    max-width: 4xl;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  
+  .title {
+    font-size:3rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .description {
+    color: #717171; /* Contoh warna abu-abu */
+    font-size: 1.5rem;
+  }

@@ -1,0 +1,19 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff; 
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh; 
+  text-align: center;
+  background-color: #ffffff;
+  /* padding: 20px; */
+  box-sizing: border-box;
+}

@@ -1,0 +1,10 @@
+.footer {
+  width: 100%;
+  max-width: 100%;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+  height: 150px; /* Mengatur tinggi footer menjadi 80px */
+  display: flex;
+  align-items: center; /* Mengatur agar teks berada di tengah secara vertikal */
+  justify-content: center; /* Mengatur agar teks berada di tengah secara horizontal */
+}
