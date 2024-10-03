@@ -1,6 +1,7 @@
 .navbar-logo-image {
   height: 360px; 
   width: auto;
+  padding-left: 20px;
 }
 
 .navbar {
