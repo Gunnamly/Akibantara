@@ -23,4 +23,9 @@
     height: 100vh; 
     object-fit: auto;
   }
+
+  .slideshow {
+    height: 100vh; 
+    touch-action: pan-y;
+  }
 }
