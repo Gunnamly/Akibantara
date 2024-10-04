@@ -16,3 +16,11 @@
   height: 100vh;
   /* object-fit: contain; */
 }
+
+@media (max-width: 768px) {
+  .slide {
+    width: auto;
+    height: 100vh; 
+    object-fit: cover;
+  }
+}
