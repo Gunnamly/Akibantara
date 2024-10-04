@@ -3,6 +3,7 @@
   width: 100%;
   height: 100vh; 
   overflow: hidden; 
+  touch-action: pan-y;
 }
 
 .slide-container {
@@ -19,13 +20,13 @@
 
 @media (max-width: 768px) {
   .slide {
-    width: 100%;
-    height: 100vh; 
-    object-fit: auto;
+    width: 100%; /* Sesuaikan agar gambar memenuhi layar */
+    height: 100vh;
+    object-fit: auto; /* Tetap menutupi layar dengan baik */
   }
 
   .slideshow {
-    height: 100vh; 
-    touch-action: pan-y;
+    height: 100vh;
+    touch-action: pan-y; /* Memungkinkan geser secara vertikal di layar sentuh */
   }
 }

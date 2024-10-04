@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './Slideshow.css';
 
 import Slide1 from '../images/1.png';
@@ -33,6 +33,10 @@ const Slideshow = () => {
     setTouchStart(e.targetTouches[0].clientY);
   };
 
+  const handleTouchMove = (e) => {
+    setTouchEnd(e.targetTouches[0].clientY);
+  };
+
   const handleTouchEnd = () => {
     if (scrolling) return;
 
@@ -55,7 +59,8 @@ const Slideshow = () => {
       className="slideshow"
       onWheel={handleScroll}
       onTouchStart={handleTouchStart}
-      onTouchEnd={(e) => setTouchEnd(e.changedTouches[0].clientY)}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
     >
       <div className="slide-container" style={{ transform: `translateY(-${currentIndex * 100}vh)` }}>
         {images.map((image, index) => (
