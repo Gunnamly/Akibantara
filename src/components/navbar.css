@@ -39,10 +39,9 @@
 
 @media (max-width: 768px) {
   .navbar-logo-image {
-    height: 95px; 
+    height: 70px; 
     width: auto;
     padding-left: 10px;
-    padding-right: 15px;
   }
 
   .navbar-links li a {
